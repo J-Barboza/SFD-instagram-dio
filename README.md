@@ -13,12 +13,12 @@
 
  Tela resultado do desenvolvimento
 > A tela sugerido pela mentora foi a tela pricipal após login
-A versão criada é da tela inicial para efetuar o login
-Propositalmente não foi incluído o linha com o idioma 
-O cor do botão de Log in também foi deixado com a cor diferente
-A tela obviamente não faz login
-O carrosel com as imagens do celular foi implementado
-A linha com os Help's no final da página foi implementado
+> A versão criada é da tela inicial para efetuar o login
+> Propositalmente não foi incluído o linha com o idioma 
+> O cor do botão de Log in também foi deixado com a cor diferente
+> A tela obviamente não faz login
+> O carrosel com as imagens do celular foi implementado
+> A linha com os Help's no final da página foi implementado
 
 ![Versão resultado do projeto](https://user-images.githubusercontent.com/90610113/169630373-59a42ee4-ea2b-4e32-b9d0-7991bf1cb875.jpg)
 
