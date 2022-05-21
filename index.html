@@ -3,39 +3,174 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Instagram</title>
 </head>
 <body>
-    <div class="instagram-wrapper">
-        <div class="instagram-phone">
-            <img src="./img/instagram-celular.png" alt="celular">
-        </div>
-        <div class="instagram-continue">
-            <div class="group">
-                <img src="./img/instagram-logo.png" class="instagram-logo" alt="instagram logo">
-                <div class="profile-photo">
-                    <img src="./img/perfil-instagram.jpg" alt="foto de perfil">
+    <section>
+        <div></div>
+        <Main>
+            <article class="article">
+                <div class="instagram-phone parent">
+                    <img class="mobileBg" src="./assets/img/imgCelular.png" alt="celular">
+                    <img id="img01" class="mobileUP" src="./assets/img/imgFoto01.png" alt="celular">
+                    <img id="img02" class="mobileUP" src="./assets/img/imgFoto02.png" alt="celular">
+                    <img id="img03" class="mobileUP" src="./assets/img/imgFoto03.png" alt="celular">
+                    <img id="img04" class="mobileUP" src="./assets/img/imgFoto04.png" alt="celular">
                 </div>
-                <a href="#" class="instagram-login">Continue como sprucegabriela</a>
-                <a href="#" class="instagram-logout">Remover conta</a>
-            </div>
-            <div class="group">
-                <p class="not-account">Não é sprucegabriela?</p>
-                <p class="not-account">
-                    <span class="link-blue">Alternar contas</span>
-                    ou
-                    <span class="link-blue">Inscreva-se</span>
-                </p>
-            </div>
-            <div class="get-the-app">
-                <p class="get-app">Baixe o aplicativo</p>
-                <div class="download">
-                    <a href="#" class="app-download"></a>
-                    <a href="#" class="app-download"></a>
+                <div class="instagram-continue">
+                    <div class="group">
+                        <div class="logoInstagram">
+                            <img src="./assets/img/instagram-logo.png" class="instagram-logo" alt="instagram logo">
+                        </div>
+                        <div class="textInput">
+                            <span class="hintLogin">Phone number, username or email</span>
+                        </div>
+                        <div class="textInput">
+                            <span class="hintPassword">Password</span>
+                        </div>
+                        <div>
+                            <a href="#" class="instagram-login">Log In</a>
+                        </div>
+                        <div class="mainOrLine">
+                            <div class="line1">
+                                <div class="thinLine"></div>
+                            </div>
+                            <div class="or">
+                                <div class="orLine">OR</div>
+                            </div>
+                            <div class="line2">
+                                <div class="thinLine"></div>
+                            </div>
+                        </div>
+                        <div class="loginAndForget">
+                            <div>
+                                <button onclick="myFunction()">
+                                    <div class="facebook">
+                                        <img src="./assets/img/logoFacebook.png" class="logoFacebook" alt="facebook logo">
+                                        <span class="loginFacebook">Log in with Facebook</span>
+                                    </div>
+                                </button>
+                            </div>
+                            <div class="forgotPass">
+                                <span class="forgot">Forgot password?</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dontHaveAccount">
+                        <p>
+                            <span class="link-blue">Don't have an account?</span>
+                            <span class="signUp">Sign up</span>
+                        </p>
+                    </div>
+                    <div class="get-the-app">
+                        <p class="get-app">Get the app.</p>
+                        <div class="download">
+                            <div class="myImageApple">
+                                <img href="#" src="/assets/img/apple-button.png" class="buttonApple" />
+                            </div>
+                            <div class="myImageAndroid">
+                                <img href="#" src="/assets/img/googleplay-button.png" class="buttonAndroid" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </div>
+            </article>
+            <footer>
+                <div class="divFooter">
+                    <div class="footerLinha">
+                        <div class="about">
+                            <a href="https://about.facebook.com/meta" rel="nofollow noopener noreferrer" target="_blank">
+                                <div class="textFooter">Meta</div>
+                            </a>
+                        </div>
+                        <div class="about">
+                            <a href="https://about.instagram.com/" rel="nofollow noopener noreferrer" target="_blank">
+                                <div class="textFooter">About</div>
+                            </a>
+                        </div>
+                        <div class="about">
+                            <a href="https://about.instagram.com/blog/" rel="nofollow noopener noreferrer" target="_blank">
+                                <div class="textFooter">Blog</div>
+                            </a>
+                        </div>
+                        <div class="about">
+                            <a href="/about/jobs/">
+                                <div class="textFooter">Jobs</div>
+                            </a>
+                        </div>
+                        <div class="about">
+                            <a href="https://help.instagram.com/" rel="nofollow noopener noreferrer" target="_blank">
+                                <div class="textFooter">Help</div>
+                            </a>
+                        </div>
+                        <div class="about">
+                            <a href="https://developers.facebook.com/docs/instagram" rel="nofollow noopener noreferrer" target="_blank">
+                                <div class="textFooter">API</div>
+                            </a>
+                        </div>
+                        <div class="about">
+                            <a href="/legal/privacy/">
+                                <div class="textFooter">Privacy</div>
+                            </a>
+                        </div>
+                        <div class="about">
+                            <a href="/legal/terms/">
+                                <div class="textFooter">Terms</div>
+                            </a>
+                        </div>
+                        <div class="about">
+                            <a href="/directory/profiles/">
+                                <div class="textFooter">Top Accounts</div>
+                            </a>
+                        </div>
+                        <div class="about">
+                            <a href="/directory/hashtags/">
+                                <div class="textFooter">Hashtags</div>
+                            </a>
+                        </div>
+                        <div class="about">
+                            <a href="/explore/locations/">
+                                <div class="textFooter">Locations</div>
+                            </a>
+                        </div>
+                        <div class="about">
+                            <a href="/web/lite/">
+                                <div class="textFooter">Instagram Lite</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footerLinha">
+                        <div class="about">
+                            <a href="/topics/dance-and-performance/">
+                                <div class="textFooter">Dance</div>
+                            </a>
+                        </div>
+                        <div class="about">
+                            <a href="/topics/food-and-drink/">
+                                <div class="textFooter">Food &amp; Drink</div>
+                            </a>
+                        </div>
+                        <div class="about">
+                            <a href="/topics/home-and-garden/">
+                                <div class="textFooter">Home &amp; Garden</div>
+                            </a>
+                        </div>
+                        <div class="about">
+                            <a href="/topics/music/">
+                                <div class="textFooter">Music</div>
+                            </a>
+                        </div>
+                        <div class="about">
+                            <a href="/topics/visual-arts/">
+                                <div class="textFooter">Visual Arts</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </Main>
+    </section>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
